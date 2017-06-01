@@ -11,21 +11,22 @@
     <link rel="stylesheet" href="styles/modules.css">
     <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
     <script id="article-template" type="text/x-handlebars-template">
-      <h1>{{title}}</h1>
-      <div class="byline">
-        by 
-        <address>
-          <a href="{{authorUrl}}">{{author}}</a>
-        </address>
-        {{publishStatus}}
-      </div>
-      <section class="article-body">
-        {{{body}}}
-      </section>
-      <a href="#" class="read-on">Read on &rarr;</a>
-      <hr>
-      <!--WIP-->
-    </script>
+          <article>
+          <h1>{{title}}</h1>
+          <div class="byline">
+            by
+            <address>
+              <a href="{{authorUrl}}">{{author}}</a>
+            </address>
+            {{publishStatus}}
+          </div>
+          <section class="article-body">
+            {{{body}}}
+          </section>
+          <a href="#" class="read-on">Read on →</a>
+          <hr>
+          </article>
+      </script>
 
     <!--
       TODO: Add a script tag to hold the Handlebars template.
